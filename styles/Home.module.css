@@ -1,0 +1,38 @@
+.mainnav{
+  width: 35%;
+  margin: auto
+}
+.mainnav ul{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-weight: bold;
+}
+.mainnav ul li{
+  list-style-type: none; 
+  cursor:pointer;
+}
+.main{
+  width: 95%;
+  margin: auto;
+}
+.title{
+  padding: 20px 0px 10px 0px;
+}
+.description, .title{
+  text-align: center;
+}
+.description{
+  font-size:24px
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3,29.333%);
+  grid-gap: 4%;
+}
+.blogs .blogItem{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 5px 10px #888888;
+  cursor: pointer;
+}
